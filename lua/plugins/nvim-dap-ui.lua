@@ -3,36 +3,36 @@ return
     {
         "rcarriga/nvim-dap-ui",
         opts =
+        {
+            layouts =
             {
-                layouts =
                 {
+                    elements =
                     {
-                        elements =
                         {
-                            {
-                                id = "stacks",
-                                size = 0.5
-                            },
-                            {
-                                id = "scopes",
-                                size = 0.5
-                            }
+                            id = "stacks",
+                            size = 0.5
                         },
-                        position = "left",
-                        size = 40
+                        {
+                            id = "scopes",
+                            size = 0.5
+                        }
                     },
+                    position = "left",
+                    size = 40
+                },
+                {
+                    elements =
                     {
-                        elements =
                         {
-                            {
-                                id = "console"
-                            }
-                        },
-                        position = "bottom",
-                        size = 10
-                    }
+                            id = "console"
+                        }
+                    },
+                    position = "bottom",
+                    size = 10
                 }
             }
+        }
     },
 }
 
